@@ -1,4 +1,3 @@
-/* Reset básico para melhor controle de estilo */
 * {
     margin: 0;
     padding: 0;
@@ -12,11 +11,10 @@ body {
     line-height: 1.6;
 }
 
-/* 1. NAVEGAÇÃO (<nav>) */
 .navbar {
-    position: sticky; /* Mantém a navegação no topo */
+    position: sticky;
     top: 0;
-    background-color: #004d99; /* Azul escuro */
+    background-color: #004d99;
     padding: 15px 0;
     text-align: center;
     z-index: 1000;
@@ -30,34 +28,26 @@ body {
     margin: 0 10px;
     border-radius: 5px;
     display: inline-block;
-    
-    /* Requisito 3.2: Transição suave para o hover */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Requisito 3.1: Mudança de aparência ao passar o mouse */
 .nav-link:hover {
-    background-color: #ff6600; /* Laranja vibrante */
+    background-color: #ff6600;
     color: #fff;
 }
 
-
-/* 2. BANNER (dentro de <main>) */
-
 .banner-area {
-    /* Escolha uma imagem que remeta a um vilarejo europeu */
+ 
     background-image: url('https://source.unsplash.com/1600x900/?european-village,travel');
     background-size: cover;
     background-position: center;
-    height: 80vh; /* Ocupa 80% da altura da viewport */
+    height: 80vh; 
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: white; /* Cor do texto overlay */
+    color: white;
     position: relative;
-    /* Efeito de overlay escuro para o texto se destacar */
-    /* Você pode usar um gradiente ou um pseudo-elemento ::before para um overlay */
 }
 
 .banner-area::before {
@@ -67,12 +57,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.4); /* Overlay escuro semi-transparente */
+    background: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
 
 .banner-content {
-    /* Garante que o texto overlay fique acima do overlay escuro */
     z-index: 2; 
 }
 
@@ -88,15 +77,12 @@ body {
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-
-/* 3. SEÇÕES (<section>) */
-
 .secao-padrao {
     padding: 60px 20px;
     max-width: 1000px;
     margin: 0 auto;
     border-bottom: 1px solid #ddd;
-    min-height: 40vh; /* Garante que a seção tenha uma altura mínima */
+    min-height: 40vh;
 }
 
 .secao-padrao h2 {
@@ -108,8 +94,6 @@ body {
     padding-bottom: 5px;
 }
 
-/* 4. LINKS DE VOLTA AO TOPO */
-
 .voltar-topo {
     display: block;
     text-align: right;
@@ -117,18 +101,13 @@ body {
     color: #ff6600;
     text-decoration: none;
     font-weight: bold;
-    
-    /* Transição suave para o hover */
     transition: color 0.3s ease;
 }
 
-/* Requisito 3.1: Mudança de aparência ao passar o mouse */
 .voltar-topo:hover {
-    color: #004d99; /* Muda para o azul principal */
+    color: #004d99;
     text-decoration: underline;
 }
-
-/* 5. RODAPÉ (<footer>) */
 
 footer {
     background-color: #333;
@@ -137,6 +116,3 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
-
-/* Nota: Para a imagem do banner funcionar, substitua a URL no CSS pelo caminho para uma imagem local
-   ou utilize um serviço como o Unsplash (como no exemplo) ou Pexels. */
