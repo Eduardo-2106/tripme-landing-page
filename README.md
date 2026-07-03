@@ -1,4 +1,4 @@
-# ✈️ TripMe - Landing Page de Viagens
+# TripMe - Landing Page de Viagens
 
 Uma landing page moderna, elegante e totalmente responsiva desenvolvida para a **TripMe**, uma agência de turismo boutique especializada em roteiros exclusivos pela Europa. 
 
@@ -6,7 +6,7 @@ Este projeto foi desenvolvido como um desafio prático de consolidação de conc
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
 - **Menu de Navegação Fixo (Sticky Navbar):** Menu superior que acompanha a rolagem da página para facilitar o acesso às seções, equipado com transições suaves e efeitos visuais interativos (*hover*) nos links.
 - **Banner Hero de Impacto:** Seção de destaque inicial com uma imagem de fundo imersiva e uma camada de sobreposição escura (*overlay*) gerada via CSS, garantindo máxima legibilidade do texto e sofisticação visual.
@@ -16,7 +16,7 @@ Este projeto foi desenvolvido como um desafio prático de consolidação de conc
   - **Dicas Essenciais para Viajantes:** Bloco informativo contendo conselhos práticos (seguro viagem, frases básicas no idioma e dicas gastronômicas).
 - **Navegação de Retorno Automatizada:** Links para "Voltar ao Topo" estrategicamente posicionados ao final de cada bloco de conteúdo, melhorando a usabilidade e a experiência do usuário (UX).
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 O projeto foi construído utilizando as melhores práticas aprendidas no curso, priorizando código limpo, semântico e sem dependências externas pesadas:
 
@@ -27,7 +27,7 @@ O projeto foi construído utilizando as melhores práticas aprendidas no curso, 
   - Efeitos de transição temporal suave (`transition: background-color 0.3s ease, color 0.3s ease`).
   - Manipulação de pseudo-elementos (`::before`) para criação de máscaras visuais sobre imagens.
 
-## 📁 Estrutura do Repositório
+## Estrutura do Repositório
 
 O repositório mantém uma arquitetura simplificada e organizada:
 ```bash
@@ -35,7 +35,7 @@ O repositório mantém uma arquitetura simplificada e organizada:
 └── style.css    # Folha de estilos, identidade visual e regras de design
 ```
 
-## 💻 Como Executar o Projeto
+## Como Executar o Projeto
 
 Como a aplicação foi desenvolvida utilizando exclusivamente tecnologias web nativas, você não precisa instalar nenhum gerenciador de pacotes ou rodar servidores locais:
 
