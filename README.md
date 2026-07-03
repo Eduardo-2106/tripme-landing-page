@@ -30,7 +30,7 @@ O projeto foi construído utilizando as melhores práticas aprendidas no curso, 
 ## Estrutura do Repositório
 
 O repositório mantém uma arquitetura simplificada e organizada:
-```bash
+```text
 ├── index.html   # Estrutura de marcação e conteúdo da Landing Page
 └── style.css    # Folha de estilos, identidade visual e regras de design
 ```
